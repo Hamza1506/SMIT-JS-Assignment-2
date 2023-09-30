@@ -157,9 +157,29 @@ document.write("You are either "+age1+" or "+age2+"<br>")
 
 document.write("<b>Question 12"+"<br><br></b>")
 
+let radius=20;
+let circum= 2*3.142*radius
+let area = 3.142*20*20
+
+document.write("Radius of circle"+radius+"<br>")
+document.write("The circumference is "+circum+"<br>")
+document.write("The area is "+area+"<br><br>")
+
 // Question 13
 
 document.write("<b>Question 13"+"<br><br></b>")
+document.write("<b>The Lifetime Supply Calculator"+"<br><br></b>")
+
+let snack="chocolate chips"
+let cage=15
+let maxAge=65
+let snackPerDay=3
+let cal=(maxAge-cage)*snackPerDay
+document.write("Favourite Snack: "+snack+"<br>")
+document.write("Current Age: "+cage+"<br>")
+document.write("Estimated Maximum Age: "+maxAge+"<br>")
+document.write("Amount of snack per day: "+snackPerDay+"<br>")
+document.write("You will need "+cal+" "+snack+" to last you untill the ripe age of "+maxAge)
 
 
 
