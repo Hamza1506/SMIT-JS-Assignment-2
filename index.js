@@ -83,6 +83,87 @@ let ToFarenheit= (celcius*9/5)+32
 let farenheit =+prompt("Enter Temperature in Farenheit")
 let toCelcius=(farenheit-32)*5/9
 document.write(celcius+"\u00B0C "+"is "+ToFarenheit+"\u00B0F"+"<br><br>")
-document.write(farenheit+"\u00B0F "+"is "+toCelcius+"\u00B0C")
+document.write(farenheit+"\u00B0F "+"is "+toCelcius+"\u00B0C"+"<br><br>")
+
+// Question 7
+
+document.write("<b>Question 7"+"<br><br></b>")
+
+let item1=650;
+let item2=100;
+let qtyItem1=3;
+let qtyItem2=7
+let sc=100;
+let totalCost= (item1*qtyItem1)+(item2*qtyItem2)+sc
+
+document.write("Price of item 1 is "+item1+"<br>")
+document.write("Quantity of item 1 is "+qtyItem1+"<br>")
+document.write("Price of item 2 is "+item2+"<br>")
+document.write("Quantity of item 2 is "+qtyItem2+"<br>")
+document.write("Shipping Charges "+sc+"<br>")
+document.write("Total cost of your order is "+totalCost+"<br><br>")
+
+// Question 8
+
+document.write("<b>Question 8"+"<br><br></b>")
+
+document.write("<b>Mark Sheet"+"<br><br></b>")
+
+let totalMarks=980
+let marksObtained=804
+let percentage=(marksObtained/totalMarks)*100
+
+document.write("Total Marks: "+totalMarks+"<br>")
+document.write("Obtained Marks: "+marksObtained+"<br>")
+document.write("Percentage: "+percentage+"<br>")
+
+// Question 9
+
+document.write("<b>Question 9"+"<br><br></b>")
+document.write("<b>Currency in PKR"+"<br><br></b>")
+
+let totalDollar=10
+let totalRiyaal=25
+
+let dlrToPkr=104.80*totalDollar
+let riyalToPkr=28*totalRiyaal
+
+let totalCur=dlrToPkr+riyalToPkr
+
+document.write("Total Currency in PKR "+totalCur+"<br><br>")
+
+// Question 10
+
+document.write("<b>Question 10"+"<br><br></b>")
+
+let numb=2
+let calculation=((numb+5)*10)/2
+document.write("after calculation "+calculation+"<br><br>")
+
+// Question 11
+
+document.write("<b>Question 11"+"<br><br></b>")
+document.write("<b>Age Calculator"+"<br><br></b>")
+
+let cyear=2023;
+let byear=1999;
+let age1=cyear-byear
+let age2=age1-1
+document.write("Current year "+cyear+"<br>")
+document.write("Birth year "+byear+"<br>")
+document.write("You are either "+age1+" or "+age2+"<br>")
+
+// Question 12
+
+document.write("<b>Question 12"+"<br><br></b>")
+
+// Question 13
+
+document.write("<b>Question 13"+"<br><br></b>")
+
+
+
+
+
 
 
